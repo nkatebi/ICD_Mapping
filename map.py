@@ -10,16 +10,14 @@ which shows there is an approximate match or identical match. Next flag is No ma
 which is for indicating that there is any map or not and the third one is combination
 flag for checking that the code maps to more than one code or not.
 """
-################ loading mapping files #################
 
 import sys
         
         
- ############# this function is for counting the number of mappings ############       
 def map_icd(path):
     '''
     Input: path of mapping text file
-    output: number of one to one one to many and no map
+    output: number of one to one, one to many and no maps
         
     '''
     with open(path,'r') as text:
