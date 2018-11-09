@@ -1,0 +1,23 @@
+BMI 500 HW 
+Nasim Katebi
+
+
+
+How many 1 to 1 mappings are there?
+ICD 9 to 10 : 22100
+ICD 10 to 9 : 71829
+
+
+How many 1 to many mappings are there? In general, is the concept on the 1 side equivalent to the concepts on the many side?  Yes, the concept is the same in both sides but when we have one to many mapping there is more information in many side.
+
+ICD 9 to 10 : 2338
+ICD 10 to 9 : 9033
+
+
+How many terms have no mappings?
+ICD 9 to 10 : 422
+ICD 10 to 9 : 731
+
+
+Given the goal of resolving all 1:many mappings down to 1:1 mappings, which mapping direction (10>9 or 9>10) is more feasible? 
+Mapping ICD 9 to 10 is more feasible because there are more details in icd 10 so mapping 1:many to 1:1 would be easier.
